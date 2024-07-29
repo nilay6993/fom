@@ -1,0 +1,69 @@
+.selectable-squares-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.arrow-container-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+
+.arrow-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+}
+
+.arrow-left-label,
+.arrow-right-label {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  width: 100px;
+  text-align: center;
+}
+
+.square-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #716357;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
+  user-select: none;
+}
+
+.square:hover {
+  background-color: rgba(113, 99, 87, 0.3);
+}
+
+.square.selected {
+  background-color: rgb(113, 99, 87);
+  box-shadow: rgb(113, 99, 87) 0px 0px 0px 2px inset;
+  color: white;
+}
+
+@media (min-width: 441px) {
+  .square {
+    width: 50px;
+    height: 50px;
+  }
+}

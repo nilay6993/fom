@@ -1,0 +1,26 @@
+code {
+  font-family: "Epilogue", "Courier New", monospace;
+}
+
+.bg_style {
+  background-image: url(./assets/Images/background-image.jpg);
+  background-color: rgb(224, 201, 180);
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset-block-start: 0px;
+  inset-inline-start: 0px;
+  display: inline-block;
+  line-height: 0;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.fork-section {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
