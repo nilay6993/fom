@@ -34,7 +34,7 @@
     "webpack-hot-middleware": "^2.26.1"
   },
   "scripts": {
-    "start": "webpack serve --mode development",
+    "start": "webpack serve --mode production",
     "build": "react-scripts build",
     "build:dev": "react-scripts build",
     "test": "react-scripts test",
